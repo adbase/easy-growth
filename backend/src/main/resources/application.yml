@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: easy-growth-os
+
+# 与前端联调时，开发服务器默认 http://localhost:5173（见 frontend/vite.config.ts）
+app:
+  cors:
+    allowed-origin-patterns:
+      - "http://localhost:*"
+      - "http://127.0.0.1:*"

@@ -1,0 +1,16 @@
+# Maven
+backend/target/
+/target/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store

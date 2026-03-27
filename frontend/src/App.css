@@ -1,0 +1,69 @@
+.shell {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+  font-family: system-ui, sans-serif;
+  color: #e8eaed;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.muted {
+  margin: 0;
+  color: #9aa0a6;
+  font-size: 0.95rem;
+}
+
+.card {
+  margin-top: 1.75rem;
+  padding: 1.25rem 1.35rem;
+  border-radius: 10px;
+  background: #1e1f22;
+  border: 1px solid #3c4043;
+}
+
+.card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.kv {
+  margin: 0;
+}
+
+.kv > div {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 0.5rem 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #3c4043;
+}
+
+.kv > div:last-child {
+  border-bottom: none;
+}
+
+.kv dt {
+  margin: 0;
+  color: #9aa0a6;
+  font-size: 0.85rem;
+}
+
+.kv dd {
+  margin: 0;
+  font-family: ui-monospace, monospace;
+  font-size: 0.9rem;
+}
+
+.error {
+  margin: 0;
+  color: #f28b82;
+  font-size: 0.95rem;
+}
